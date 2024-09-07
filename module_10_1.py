@@ -30,7 +30,6 @@ def timing(func):
 
 @timing
 def first_words():
-    # time_start_1 = datetime.now()
     wite_words(10, 'example1.txt')
     wite_words(30, 'example2.txt')
     wite_words(200, 'example3.txt')
